@@ -1,0 +1,21 @@
+.main {
+    padding-left: 150px;
+    padding-top: 50px;
+    &-ul {
+        list-style-type: decimal;
+        font-size: 20px;
+        li {
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+    }
+    &-link {
+        color:green;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        &:hover {
+            color: rgb(13, 75, 13);
+        }
+    }
+}

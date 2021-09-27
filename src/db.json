@@ -1,0 +1,144 @@
+{
+    "items": [
+      {
+        "id": 0,
+        "name": "Climacool Vento Shoes",
+        "description": "two",
+        "price": 1000,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/6e0b3bc130714fd488a4ab72010f4ae1_9366/krossovki-superstar.jpg"
+      },
+      {
+        "id": 1,
+        "name": "NMD_R1 Shoes",
+        "description": "two",
+        "price": 125,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/f8667e8834ca4333afb6abf1009bfd6c_9366/krossovki-superstar-moskva.jpg"
+      },
+      {
+        "id": 2,
+        "name": "ZX 2K 4D Shoes",
+        "description": "two",
+        "price": 120,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/1f2aaade11594cea8bebaa3e00ccd16a_9366/krossovki-ozweego.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Ultraboost DNA Prime Shoes",
+        "description": "two",
+        "price": 99,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/3c27068ccf5242478646a54c00a95ea8_9366/krossovki-zx-700.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Ultraboost DNA Prime Shoes",
+        "description": "two",
+        "price": 199,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/8580b1613d854d9fb43ca97f00d612d8_9366/krossovki-grand-court.jpg"
+      },
+      {
+        "id": 5,
+        "name": "adidas 4D Run 1.0 Shoes",
+        "description": "two",
+        "price": 299,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/71d8a38f532442a6a31faae700d3e37c_9366/krossovki-superstar.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Stan Smith Shoes",
+        "description": "two",
+        "price": 190,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/2a40a9326b134390bd27ab3b0115dcff_9366/krossovki-deerupt-runner.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Ultraboost 20 Shoes",
+        "description": "two",
+        "price": 160,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/41868fa841c24ceeb761abd8012e14a8_9366/krossovki-streetball.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Ultraboost DNA x Arsenal",
+        "description": "two",
+        "price": 140,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/e28154ea0b6b47ffac65ab5700f46ffa_9366/krossovki-courtmaster.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Lite Racer Adapt 3.0 Shoes",
+        "description": "two",
+        "price": 400,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/08afa8197c614f728aebabd800d35371_9366/zimnie-botinki-fusion-storm.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Ultraboost DNA Prime Shoes",
+        "description": "two",
+        "price": 599,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/84f44a42a35a47849242a8fc00a97e1b_9366/krossovki-yung-1.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Kaptir Shoes",
+        "description": "two",
+        "price": 150,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/e022a371064a47408804abde0157d1ef_9366/krossovki-stan-smith-gore-tex.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Questar Flow Shoes",
+        "description": "two",
+        "price": 99,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/2caae3a62b644356aca1abde00ebe262_9366/krossovki-zx-750-hd.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Adilette Comfort Slides",
+        "description": "two",
+        "price": 100,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/86aafc7cf3d348f2aff8ab9601601e17_9366/krossovki-dlia-bega-energyfalcon.jpg"
+      },
+      {
+        "id": 14,
+        "name": "3MC Shoes",
+        "description": "two",
+        "price": 250,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/25a99a21919e412cbb60ab21008c768d_9366/krossovki-supercourt-rx.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Lite Racer Adapt 3.0 Shoes",
+        "description": "two",
+        "price": 330,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/e022a371064a47408804abde0157d1ef_9366/krossovki-stan-smith-gore-tex.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Adilette Cloudfoam Slides",
+        "description": "two",
+        "price": 422,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/86aafc7cf3d348f2aff8ab9601601e17_9366/krossovki-dlia-bega-energyfalcon.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Superstar Shoes",
+        "description": "two",
+        "price": 123,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/2ce5885b02ad4722827daafc0147a1b7_9366/krossovki-roguera.jpg"
+      },
+      {
+        "id": 18,
+        "name": "X_PLR Shoes",
+        "description": "two",
+        "price": 200,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/5ade5f6eb8e34042949dabad01237f55_9366/krossovki-ozweego.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Nite Jogger Shoes",
+        "description": "two",
+        "price": 155,
+        "image": "https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/809331bcaf52460facb3ab3b011623ef_9366/krossovki-deerupt-runner.jpg"
+      }
+    ]
+  }
