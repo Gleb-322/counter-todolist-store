@@ -2,7 +2,7 @@ import React from "react";
 import MenuListItem from '../MenuListItem'
 import './menuList.scss'
 
-const MenuList = ({posts}) => {
+const MenuList = ({posts, onDelete, onToggleImportant, onToggleLiked}) => {
        
     return (
         <ul className='app-list'>
@@ -11,7 +11,11 @@ const MenuList = ({posts}) => {
                     const {id, ...itemProps} = item
                     return (
                         <li key={id} className="list-group-item">
-                            <MenuListItem {...itemProps}/>
+                            <MenuListItem 
+                                onDelete={() => onDelete(id)}
+                                onToggleImportant={() => onToggleImportant(id, 'important')}
+                                onToggleLiked={() => onToggleLiked(id, 'liked')}
+                                {...itemProps}/>
                         </li>
                     )
                 })     

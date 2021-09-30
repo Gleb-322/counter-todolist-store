@@ -1,30 +1,45 @@
-import React from "react";
+import React, { Component } from "react";
 import './menuListItem.scss'
 
-const MenuListItem = ({label}) => {
+export default class MenuListItem extends Component {
     
-    return (
-        <div className='app-list-item'>
+    render() {
+        const {label, important, liked, onToggleImportant, onToggleLiked, onDelete} = this.props
+
+        let classNames = 'app-list-item'
+
+        if (important) {
+            classNames += ' important'
+        }
+
+        if (liked) {
+            classNames += ' like'
+        }
+        return (
+            <div className={classNames}>
                 <span 
-                className="app-list-item-label">
+                    onClick={onToggleLiked}
+                    className="app-list-item-label">
                     {label}
                 </span>
-                <div className="d-flex justify-content-center align-items-center">
+                <div className="app-list-item-block">
                     <button
-                    type="button"
-                    className="btn-star btn-sm">
-                        <i className="fa fa-star"></i>
+                        onClick={onToggleImportant}
+                        type="button"
+                        className="btn-star btn-sm">
+                            <i className="fa fa-star"></i>
                     </button>
                     <button
-                    type="button"
-                    className="btn-trash btn-sm">
-                        <i className="fa fa-trash"></i>
+                        onClick={onDelete}
+                        type="button"
+                        className="btn-trash btn-sm">
+                            <i className="fa fa-trash"></i>
                     </button>
-                    <i className="fa fa-heart"></i>
+                        <i className="fa fa-heart"></i>
                 </div>
             </div>
-    )
+        )
+    }
+    
     
 }
-
-export default MenuListItem
