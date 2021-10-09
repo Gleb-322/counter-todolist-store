@@ -1,7 +1,7 @@
 import React from "react";
 import StoreServiceContext from "../StoreServiceContext";
 
-const WithShoesService = (Wrapped) => {
+const WithShoesService = () => (Wrapped) => {
     return (props) => {
         return (
             <StoreServiceContext.Consumer>

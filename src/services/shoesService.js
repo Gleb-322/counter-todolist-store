@@ -3,14 +3,15 @@ export default class ShoesService {
     _apiBase = 'http://localhost:3000'
 
     async getResource(url) {
-        const responce = await fetch(`${this._apiBase}${url}`)
+        const response = await fetch(`${this._apiBase}${url}`)
 
-        if (!responce.ok) {
+        if (!response.ok) {
             throw new Error(`Could not fetch ${url}` + 
-            `, received ${responce.status}`);
+            `, received ${response.status}`);
         }
 
-        const result = await responce.join()
+        const result = await response.json()
+        console.log(result)
         return result
     }
 

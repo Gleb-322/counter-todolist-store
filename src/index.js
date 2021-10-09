@@ -6,9 +6,11 @@ import ShoesService from './services/shoesService'
 import './index.css';
 import App from './components/App';
 
+const shoesService = new ShoesService()
+
 ReactDOM.render(
   <React.StrictMode>
-    <StoreServiceContext.Provider value={ShoesService}>
+    <StoreServiceContext.Provider value={shoesService}>
       <Router>
         <App />
       </Router>
