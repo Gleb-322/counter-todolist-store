@@ -1,31 +1,24 @@
 import React, { Component } from 'react'
-import WithShoesService from '../../hoc'
+import StoreListItem from '../StoreListItem'
 import './storeList.scss'
 
-export default class StoreList extends Component {
-    componentDidMount() {
-        console.log(this.props)
-        const {ShoesService} = this.props
-        console.log(ShoesService)
-        ShoesService.getStoreItems()
-        .then(data => this.itemLoaded(data))
-        .catch(() => this.onError())
-    }
-
-    onError() {
-        return (
-            <h1>Server Error</h1>
-        )
-    }
+class StoreList extends Component {
     
-    itemLoaded(data) {
-        console.log(data)
-    }
 
     render() {
-        
+        const {items, addedToCart} = this.props
         return (
             <div>
+                {
+                    items.map(item => {
+                        return (
+                            <div key={item.id}>
+                                <StoreListItem item={item} onAddToCart={() => addedToCart(item.id)}/>
+                            </div>
+                            
+                        )
+                    })
+                }
             </div>
         )
     }
@@ -33,4 +26,4 @@ export default class StoreList extends Component {
 
 
 
-WithShoesService()(StoreList)
+export default StoreList

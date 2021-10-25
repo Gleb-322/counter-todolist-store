@@ -11,7 +11,6 @@ export default class ShoesService {
         }
 
         const result = await response.json()
-        console.log(result)
         return result
     }
 
