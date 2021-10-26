@@ -1,9 +1,9 @@
 import React from "react";
 import StoreCartTable from '../StoreCartTable'
 
-const CartPage = () => {
+const CartPage = ({items, totalPrice, deleteFromCart}) => {
     return (
-        <StoreCartTable/>
+        <StoreCartTable items={items} totalPrice={totalPrice} deleteFromCart={deleteFromCart}/>
     )
 }
 export default CartPage

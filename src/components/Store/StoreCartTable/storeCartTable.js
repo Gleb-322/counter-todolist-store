@@ -4,7 +4,7 @@ import './storeCartTable.scss'
 
 export default class StoreCartTable extends Component {
 render() {
-        const {items, deleteFromCart} = this.props
+        const {items, totalPrice, deleteFromCart} = this.props
         return (
             <>  
                 <div>Your Order:</div>
@@ -24,6 +24,7 @@ render() {
                         })
                     }
                 </div>
+                <div>Total Price: {totalPrice} $</div>
             </>
         )
     }

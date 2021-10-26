@@ -63,9 +63,9 @@ export default class Store extends Component {
          
     }
 
-    // deleteFromCart() {
+    deleteFromCart() {
         
-    // }
+    }
     
     render() {
         const {items, error, loading, totalItems, totalPrice} = this.state
@@ -79,9 +79,30 @@ export default class Store extends Component {
             <div className='store'>
                 <StoreHeader totalItems={totalItems}/>
                 <Switch>
-                    <Route path='/store' exact render={() => <StoreMainPage items={items} addedToCart={this.addedToCart}/>}/>
-                    <Route path='/store/:id' render={() => <StoreItemPage items={items} />}/>
-                    <Route path='/store/cart' exact render={() => <StoreCartPage totalPrice={totalPrice}/>}/>
+                    <Route 
+                        path='/store' 
+                        exact 
+                        render={() => <StoreMainPage 
+                            items={items} 
+                            addedToCart={this.addedToCart}/>
+                        }
+                    />
+                    <Route 
+                        path='/store/:id' 
+                        exact 
+                        render={() => <StoreItemPage 
+                            items={items} />
+                        }
+                    />
+                    <Route 
+                        path='/store/cart' 
+                        exact 
+                        render={() => <StoreCartPage 
+                            items={items} 
+                            totalPrice={totalPrice} 
+                            deleteFromCart={this.deleteFromCart}/>
+                        }
+                    />
                 </Switch>
             </div>
         )
